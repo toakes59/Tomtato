@@ -1,0 +1,41 @@
+{
+	"name": "mod",
+	"namespace": "masterchief",
+	"version_number": "6.2.2",
+	"description": "adds masterchief",
+	"website_url": "N/A for now",
+	"dependencies": [],
+	"extra": {
+		"godot": {
+			"authors": [
+				"Tom"
+			],
+			"optional_dependencies": [
+
+			],
+			"compatible_game_version": [
+				"1.1.4.0"
+			],
+			"compatible_mod_loader_version": [
+				"6.2.0"
+			],
+			"incompatibilities": [
+
+			],
+			"load_before": [
+
+			],
+			"tags": [
+				"Loader",
+				"Util",
+				"Utils",
+				"Helper"
+			],
+			"config_schema": {
+
+			},
+			"description_rich": "",
+			"image": null
+		}
+	}
+}

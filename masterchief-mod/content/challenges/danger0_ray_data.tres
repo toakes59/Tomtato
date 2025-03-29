@@ -1,0 +1,32 @@
+[gd_resource type="Resource" load_steps=4 format=2]
+
+[ext_resource path="res://mods-unpacked/Darkly77-ExpandedChallenges/challenges/ex_challenge_data.gd" type="Script" id=1]
+[ext_resource path="res://mods-unpacked/masterchief-mod/content/characters/ray_tato/ray_tato_data.tres" type="Resource" id=2]
+[ext_resource path="res://mods-unpacked/masterchief-mod/content/characters/ray/ray_icon.png" type="Texture" id=3]
+
+[resource]
+script = ExtResource( 1 )
+my_id = "chal_ray"
+unlocked_by_default = false
+icon = ExtResource( 3 )
+name = "RAY"
+tier = 0
+value = 1
+effects = [  ]
+tracking_text = ""
+is_lockable = true
+is_cursed = false
+curse_factor = 0.0
+description = "CHAL_RAY"
+reward_type = 6
+reward = ExtResource( 2 )
+number = 0
+stat = ""
+additional_args = [  ]
+must_win_run = true
+required_character = ExtResource( 2 )
+required_danger_number = -1
+required_weapons_and = [  ]
+required_weapons_or = [  ]
+required_items_and = [  ]
+required_items_or = [  ]

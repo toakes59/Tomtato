@@ -1,0 +1,15 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+path="res://.import/The Halo 3 Warthog Run_ The Complete Extended Version.mp3-be8deee67901f1d7ea3864992af5c322.mp3str"
+
+[deps]
+
+source_file="res://mods-unpacked/masterchief-mod/music/The Halo 3 Warthog Run_ The Complete Extended Version.mp3"
+dest_files=[ "res://.import/The Halo 3 Warthog Run_ The Complete Extended Version.mp3-be8deee67901f1d7ea3864992af5c322.mp3str" ]
+
+[params]
+
+loop=false
+loop_offset=0

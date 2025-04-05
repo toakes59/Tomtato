@@ -14,6 +14,7 @@ func _init(modLoader = ModLoader):
 	trans_dir = dir + "translations/"
 	content_loader_dir = modLoader.UNPACKED_DIR + "Darkly77-ContentLoader/ContentLoader"
 
+	modLoader.install_script_extension("res://mods-unpacked/masterchief-mod/extensions/ui/menus/pages/main_menu.gd")
 	# Add extensions
 	# modLoader.install_script_extension(ext_dir + "singletons/run_data.gd")       # custom effect `all_homing_projectiles` - register
 	# modLoader.install_script_extension(ext_dir + "singletons/weapon_service.gd") # custom effect `all_homing_projectiles` - apply during run
@@ -54,6 +55,6 @@ func _load_master_chief_content():
 	ContentLoader.load_data(dir + "content_data/items.tres", MASTER_CHIEF_LOG)
 	
 	# Challenges
-	# ContentLoader.load_data(dir + "content_data/challenges.tres", MASTER_CHIEF_LOG)
+	ContentLoader.load_data(dir + "content_data/challenges.tres", MASTER_CHIEF_LOG)
 
 

@@ -1,0 +1,33 @@
+[gd_resource type="Resource" load_steps=5 format=2]
+
+[ext_resource path="res://items/characters/entrepreneur/entrepreneur_data.tres" type="Resource" id=1]
+[ext_resource path="res://mods-unpacked/masterchief-mod/content/characters/steve_madden/steve_madden_icon.png" type="Texture" id=2]
+[ext_resource path="res://mods-unpacked/Darkly77-ExpandedChallenges/challenges/ex_challenge_data.gd" type="Script" id=3]
+[ext_resource path="res://mods-unpacked/masterchief-mod/content/characters/steve_madden/steve_madden_data.tres" type="Resource" id=4]
+
+[resource]
+script = ExtResource( 3 )
+my_id = "chal_steve_madden"
+unlocked_by_default = false
+icon = ExtResource( 2 )
+name = "BALD!!!!!"
+tier = 0
+value = 1
+effects = [  ]
+tracking_text = ""
+is_lockable = true
+is_cursed = false
+curse_factor = 0.0
+description = "Win a run with Entrepreneur on Danger 2"
+reward_type = 6
+reward = ExtResource( 4 )
+number = 0
+stat = ""
+additional_args = [  ]
+must_win_run = true
+required_character = ExtResource( 1 )
+required_danger_number = 2
+required_weapons_and = [  ]
+required_weapons_or = [  ]
+required_items_and = [  ]
+required_items_or = [  ]

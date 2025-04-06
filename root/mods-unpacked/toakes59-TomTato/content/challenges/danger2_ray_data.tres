@@ -1,0 +1,32 @@
+[gd_resource type="Resource" load_steps=4 format=2]
+
+[ext_resource path="res://mods-unpacked/toakes59-TomTato/content/characters/ray/tomtato_ray_icon.png" type="Texture" id=1]
+[ext_resource path="res://mods-unpacked/Darkly77-ExpandedChallenges/challenges/ex_challenge_data.gd" type="Script" id=2]
+[ext_resource path="res://mods-unpacked/toakes59-TomTato/content/characters/ray_tato/ray_tato_data.tres" type="Resource" id=3]
+
+[resource]
+script = ExtResource( 2 )
+my_id = "chal_ray"
+unlocked_by_default = false
+icon = ExtResource( 1 )
+name = "Ray's Back Surgery"
+tier = 0
+value = 1
+effects = [  ]
+tracking_text = ""
+is_lockable = true
+is_cursed = false
+curse_factor = 0.0
+description = "Win a run with RayTato on Danger 2"
+reward_type = 6
+reward = ExtResource( 3 )
+number = 0
+stat = ""
+additional_args = [  ]
+must_win_run = true
+required_character = ExtResource( 3 )
+required_danger_number = 2
+required_weapons_and = [  ]
+required_weapons_or = [  ]
+required_items_and = [  ]
+required_items_or = [  ]

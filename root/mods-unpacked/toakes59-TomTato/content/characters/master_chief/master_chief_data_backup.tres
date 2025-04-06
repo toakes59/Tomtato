@@ -1,0 +1,33 @@
+[gd_resource type="Resource" load_steps=11 format=2]
+
+[ext_resource path="res://items/characters/character_data.gd" type="Script" id=1]
+[ext_resource path="res://weapons/ranged/double_barrel_shotgun/1/double_barrel_shotgun_data.tres" type="Resource" id=2]
+[ext_resource path="res://weapons/ranged/pistol/1/pistol_data.tres" type="Resource" id=3]
+[ext_resource path="res://weapons/ranged/taser/1/taser_data.tres" type="Resource" id=4]
+[ext_resource path="res://weapons/ranged/smg/1/smg_data.tres" type="Resource" id=5]
+[ext_resource path="res://mods-unpacked/toakes59-TomTato/content/characters/master_chief/master_chief_effect_3.tres" type="Resource" id=6]
+[ext_resource path="res://mods-unpacked/toakes59-TomTato/content/characters/master_chief/master_chief_effect_1.tres" type="Resource" id=7]
+[ext_resource path="res://mods-unpacked/toakes59-TomTato/content/characters/master_chief/master_chief_effect_2.tres" type="Resource" id=8]
+[ext_resource path="res://masterchief-mod/content/characters/master_chief/master_chief_eyes.png" type="Texture" id=9]
+[ext_resource path="res://mods-unpacked/toakes59-TomTato/content/characters/master_chief/tomtato_master_chief_icon.png" type="Texture" id=10]
+
+[resource]
+script = ExtResource( 1 )
+my_id = "character_master_chief"
+unlocked_by_default = true
+icon = ExtResource( 10 )
+name = "CHARACTER_MASTER_CHIEF"
+tier = 0
+value = 1
+effects = [ ExtResource( 7 ), ExtResource( 8 ), ExtResource( 6 ) ]
+tracking_text = ""
+is_lockable = true
+is_cursed = false
+curse_factor = 0.0
+max_nb = -1
+item_appearances = [ ExtResource( 9 ) ]
+tags = [  ]
+wanted_tags = [  ]
+banned_item_groups = [  ]
+banned_items = [  ]
+starting_weapons = [ ExtResource( 3 ), ExtResource( 5 ), ExtResource( 2 ), ExtResource( 4 ) ]

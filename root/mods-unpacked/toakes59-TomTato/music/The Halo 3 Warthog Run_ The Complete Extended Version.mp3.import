@@ -1,0 +1,15 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+path="res://.import/The Halo 3 Warthog Run_ The Complete Extended Version.mp3-269e0529bed5c33dcbaa4ccfa97c69ac.mp3str"
+
+[deps]
+
+source_file="res://mods-unpacked/toakes59-TomTato/music/The Halo 3 Warthog Run_ The Complete Extended Version.mp3"
+dest_files=[ "res://.import/The Halo 3 Warthog Run_ The Complete Extended Version.mp3-269e0529bed5c33dcbaa4ccfa97c69ac.mp3str" ]
+
+[params]
+
+loop=false
+loop_offset=0

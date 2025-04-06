@@ -1,0 +1,29 @@
+[gd_resource type="Resource" load_steps=7 format=2]
+
+[ext_resource path="res://items/global/weapon_data.gd" type="Script" id=1]
+[ext_resource path="res://mods-unpacked/toakes59-TomTato/content/weapons/melee/football/football.tscn" type="PackedScene" id=2]
+[ext_resource path="res://mods-unpacked/toakes59-TomTato/content/weapons/melee/football/tomtato_football_icon.png" type="Texture" id=3]
+[ext_resource path="res://mods-unpacked/toakes59-TomTato/content/weapons/melee/football/4/football_4_data.tres" type="Resource" id=4]
+[ext_resource path="res://mods-unpacked/toakes59-TomTato/content/weapons/melee/football/3/football_3_stats.tres" type="Resource" id=5]
+[ext_resource path="res://items/sets/unarmed/unarmed_set_data.tres" type="Resource" id=6]
+
+[resource]
+script = ExtResource( 1 )
+my_id = "weapon_football_3"
+unlocked_by_default = true
+icon = ExtResource( 3 )
+name = "WEAPON_FOOTBALL"
+tier = 2
+value = 45
+effects = [  ]
+tracking_text = ""
+is_lockable = true
+is_cursed = false
+curse_factor = 0.0
+weapon_id = "weapon_football"
+type = 0
+sets = [ ExtResource( 6 ) ]
+scene = ExtResource( 2 )
+stats = ExtResource( 5 )
+upgrades_into = ExtResource( 4 )
+add_to_chars_as_starting = [  ]

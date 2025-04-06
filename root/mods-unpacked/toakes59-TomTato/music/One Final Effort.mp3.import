@@ -1,0 +1,15 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+path="res://.import/One Final Effort.mp3-39af8f9488a964eccb5e141d11c74101.mp3str"
+
+[deps]
+
+source_file="res://mods-unpacked/toakes59-TomTato/music/One Final Effort.mp3"
+dest_files=[ "res://.import/One Final Effort.mp3-39af8f9488a964eccb5e141d11c74101.mp3str" ]
+
+[params]
+
+loop=false
+loop_offset=0
